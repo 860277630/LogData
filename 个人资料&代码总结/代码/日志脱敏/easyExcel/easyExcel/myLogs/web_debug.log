@@ -1,0 +1,33 @@
+2021-07-01 10:10:45.596 [http-nio-8088-exec-8] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:10:45.619 [http-nio-8088-exec-8] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:10:45.652 [http-nio-8088-exec-8] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:04.960 [http-nio-8088-exec-9] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:04.960 [http-nio-8088-exec-9] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:04.962 [http-nio-8088-exec-9] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.251 [http-nio-8088-exec-7] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.252 [http-nio-8088-exec-7] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.253 [http-nio-8088-exec-7] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.406 [http-nio-8088-exec-10] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.407 [http-nio-8088-exec-10] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.408 [http-nio-8088-exec-10] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.559 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.560 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.561 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.704 [http-nio-8088-exec-2] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.704 [http-nio-8088-exec-2] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.706 [http-nio-8088-exec-2] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.847 [http-nio-8088-exec-4] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.847 [http-nio-8088-exec-4] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.849 [http-nio-8088-exec-4] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:05.992 [http-nio-8088-exec-3] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:05.992 [http-nio-8088-exec-3] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:05.993 [http-nio-8088-exec-3] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:06.147 [http-nio-8088-exec-5] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:06.148 [http-nio-8088-exec-5] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:06.149 [http-nio-8088-exec-5] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:06.286 [http-nio-8088-exec-6] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:06.287 [http-nio-8088-exec-6] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:06.288 [http-nio-8088-exec-6] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
+2021-07-01 10:11:56.473 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - ==>  Preparing: select * from user where id = ?
+2021-07-01 10:11:56.490 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - ==> Parameters: 1(Integer)
+2021-07-01 10:11:56.506 [http-nio-8088-exec-1] DEBUG com.example.demo.dao.UserMapper.Sel - <==      Total: 1
