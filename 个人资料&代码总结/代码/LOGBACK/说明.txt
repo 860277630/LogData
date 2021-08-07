@@ -1,0 +1,6 @@
+idea_springboot_mybatis_html_logback   是自写的  springboot  整合的logback  以及MDC的例子
+
+
+logback_demo是视频教程的例子  并没有和springboot进行整合  仅仅是一个简单的展示
+
+

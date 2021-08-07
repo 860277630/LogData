@@ -1,0 +1,13 @@
+log4j2   不提倡使用properties方式  所以自写的只写了xml的例子
+
+log4j2_xml  是自己写的包含MDC在内的例子
+
+log4j2_demo   是视频的例子  也是写的xml方式
+
+
+关于properties  网上或视频里有例子 ，  可以进行参考 
+
+
+
+
+

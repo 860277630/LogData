@@ -1,0 +1,6 @@
+分两种方式XML方式和properties方式
+其中
+log4j_properties2  是视频教程的参考demo
+log4j_properties  是自己写的包含MDC在内的例子
+log4j_xml  是自己写的包含MDC的例子
+slf4j_demo   视频教程 参考demo   log4j  桥接  sl4j的例子
