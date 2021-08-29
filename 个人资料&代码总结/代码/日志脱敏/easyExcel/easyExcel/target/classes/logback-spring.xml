@@ -23,7 +23,6 @@
             <level>debug</level>
         </filter>
 
-
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
             <layout class="com.example.demo.util.MaskingPatternLayout">
                 <maskPattern>mobileNo---(mobileNo=)(\d{3})\d{4}(\d{4})---$1$2****$3</maskPattern><!--toString-->
