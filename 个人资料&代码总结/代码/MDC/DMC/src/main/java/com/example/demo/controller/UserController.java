@@ -33,6 +33,25 @@ public class UserController {
 
     static final Logger log = Logger.getLogger(UserController.class);
 
+
+    @RequestMapping("getUser/{id}")
+    public String GetUser(@PathVariable int id,Model model){
+        String requestID = randomUUID().toString().replace("-", "");
+        MDC.put("requestID",requestID);
+        log.info("MDC加入，我要打印日志了");
+        User user = new User();
+        new Thread(()->{
+            //重新抛入
+            MDC.put("requestID",requestID);
+            userService.Sel(id);
+        }).start();
+        model.addAttribute("user", user);
+        log.info("xxxxxxxxxxxxxxxxxx"+ user.toString());
+        return "index";
+    }
+
+
+
     //普通情况  无异步情况  MDC的使用
     @RequestMapping("getUserByNoThread/{id}")
     public String getUserByNoThread(@PathVariable int id,Model model){
