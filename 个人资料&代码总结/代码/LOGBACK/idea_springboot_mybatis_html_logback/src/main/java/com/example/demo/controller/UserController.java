@@ -32,6 +32,24 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+
+
+
+
+
+
+    @RequestMapping("getUser/{id}")
+    public String GetUser(@PathVariable int id,Model model){
+        String requestID = randomUUID().toString().replace("-", "");
+        System.out.println("requestID"+requestID);
+        MDC.put("requestID",requestID);
+        User user =  userService.Sel(id);
+        model.addAttribute("user", user);
+        log.info("MDC_MSG");
+        return "index";
+    }
+
+
     //普通情况  无异步情况  MDC的使用
     @RequestMapping("getUserByNoThread/{id}")
     public String getUserByNoThread(@PathVariable int id,Model model){
